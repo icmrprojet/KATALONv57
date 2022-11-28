@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pour se logger en admin</description>
+   <name>REC57-ADM01 log</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07bb39d8-bb94-45ed-a1ab-c31dee9cbe52</testCaseGuid>
+</TestCaseEntity>

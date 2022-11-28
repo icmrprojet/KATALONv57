@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>NOTIF generator Draft-Sched Once</description>
+   <name>Notif_Draft-Sched-Once</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator>COMMA</csvSeperator>
+   <dataFileGUID>0a94cbaf-0fd0-4e5d-bcc6-38df030f7b16</dataFileGUID>
+   <dataSourceUrl>D:\DOC\a_SYNCHROTEAM\KATALON\PROJETS\DATAgenerator\NOTIF Once DRAFT-SCHEDULE.csv</dataSourceUrl>
+   <driver>CSV</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

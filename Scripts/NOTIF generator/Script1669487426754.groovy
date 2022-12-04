@@ -36,20 +36,23 @@ WebUI.click(findTestObject('NOTIFICATIONS/CREER_notif_button'))
 WebUI.selectOptionByValue(findTestObject('NOTIFICATIONS/select_Event'), Event, false)
 
 if (Origine != 'Tous') {
+	System.out.println("*****  Origine= "+Origine+" *****")
     WebUI.selectOptionByValue(findTestObject('NOTIFICATIONS/select_Origine'), Origine, false)
 }
 
 //System.out.println(SC)
 
 if (Jobtype_Opt == true) {
+	System.out.println("*****  JobType= " +Jobtype_Opt+ " *****")
+	System.out.println("*****  JobType= " +Jobtype+ " *****")
     WebUI.click(findTestObject('NOTIFICATIONS/span_Job Type'))
-
     WebUI.setText(findTestObject('NOTIFICATIONS/input_Jobtype-focused'), Jobtype)
-
     WebUI.sendKeys(findTestObject('NOTIFICATIONS/input_Jobtype-focused'), Keys.chord(Keys.ENTER))
 }
 
 if (Client_Opt == true) {
+	System.out.println("*****  Client= " +Client_Opt+" *****")
+	System.out.println("*****  Client= " +Client+" *****")
     WebUI.click(findTestObject('NOTIFICATIONS/div_Client'))
 
     WebUI.setText(findTestObject('NOTIFICATIONS/input_Client-focused'), Client)
@@ -68,14 +71,15 @@ WebUI.setText(findTestObject('NOTIFICATIONS/textarea_Message_message_content'), 
 WebUI.sendKeys(findTestObject('NOTIFICATIONS/textarea_Message_message_content'), Keys.chord(Keys.ENTER))
 
 if (Delay_Opt == true) {
+	System.out.println("*****  Delay= " +Delay_Opt+ " *****")
+	System.out.println("*****  Delay= " +Delay+ " *****")
     WebUI.check(findTestObject('NOTIFICATIONS/checkbox_Delay'))
-
     WebUI.setText(findTestObject('NOTIFICATIONS/input_Delay'), Delay)
-
     WebUI.selectOptionByValue(findTestObject('NOTIFICATIONS/select_hours'), DelayUnit, false)
 }
 
 if (Once_Opt == true) {
+	System.out.println("*****  Once= " +Once_Opt+ " *****")
     WebUI.check(findTestObject('NOTIFICATIONS/checkbox_Onlyonce'))
 }
 

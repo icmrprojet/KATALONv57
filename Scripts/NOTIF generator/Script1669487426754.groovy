@@ -39,15 +39,21 @@ if (Origine != 'Tous') {
     WebUI.selectOptionByValue(findTestObject('NOTIFICATIONS/select_Origine'), Origine, false)
 }
 
+//System.out.println(SC)
+
 if (Jobtype_Opt == true) {
     WebUI.click(findTestObject('NOTIFICATIONS/span_Job Type'))
+
     WebUI.setText(findTestObject('NOTIFICATIONS/input_Jobtype-focused'), Jobtype)
+
     WebUI.sendKeys(findTestObject('NOTIFICATIONS/input_Jobtype-focused'), Keys.chord(Keys.ENTER))
 }
 
 if (Client_Opt == true) {
     WebUI.click(findTestObject('NOTIFICATIONS/div_Client'))
+
     WebUI.setText(findTestObject('NOTIFICATIONS/input_Client-focused'), Client)
+
     WebUI.sendKeys(findTestObject('NOTIFICATIONS/input_Client-focused'), Keys.chord(Keys.ENTER))
 }
 
@@ -63,7 +69,9 @@ WebUI.sendKeys(findTestObject('NOTIFICATIONS/textarea_Message_message_content'),
 
 if (Delay_Opt == true) {
     WebUI.check(findTestObject('NOTIFICATIONS/checkbox_Delay'))
+
     WebUI.setText(findTestObject('NOTIFICATIONS/input_Delay'), Delay)
+
     WebUI.selectOptionByValue(findTestObject('NOTIFICATIONS/select_hours'), DelayUnit, false)
 }
 

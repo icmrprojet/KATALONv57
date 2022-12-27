@@ -27,7 +27,27 @@ WebUI.setText(findTestObject('Page_Connexion/Password'), Password)
 
 WebUI.click(findTestObject('Page_Connexion/button_Connexion'))
 
-WebUI.takeScreenshot(Screenshot)
+if (Profil == 'Administrator') {
+    System.out.println(('*****  Tech= '+ UserName + Profil) + ' *****')
 
-WebUI.verifyElementText(findTestObject('Page_Semaine/topName'), TopName)
+    WebUI.verifyElementText(findTestObject('Page_Semaine/topName'), TopName)
+
+    WebUI.takeScreenshot(Screenshot)
+}
+
+if (Profil == 'Manager') {
+    System.out.println(('*****  Tech= ' + UserName + Profil) + ' *****')
+
+    WebUI.verifyElementText(findTestObject('Page_Semaine/topName'), TopName)
+
+    WebUI.takeScreenshot(Screenshot)
+}
+
+if (Profil == 'Technician') {
+    System.out.println(('*****  Tech= ' + UserName + Profil) + ' *****')
+
+    WebUI.verifyElementText(findTestObject('Page_Semaine/topNameTech'), TopName)
+
+    WebUI.takeScreenshot(Screenshot)
+}
 

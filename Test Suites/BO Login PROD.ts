@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>BO Login Admin</name>
+   <name>BO Login PROD</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -15,51 +15,65 @@
       <guid>7225ee5b-cdbf-4625-99bc-0cd69e2337d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BO login Admin data</testCaseId>
+      <iterationNameVariable>
+         <defaultValue>'Isa ADM01'</defaultValue>
+         <description>header top name</description>
+         <id>5fa1abf3-f0cb-4b86-8459-caddbaa8c525</id>
+         <masked>false</masked>
+         <name>TopName</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/BO login PROD</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>9454ecf3-f676-45ae-96e7-be23e28ebf15</id>
+         <id>8f385d43-f038-490f-a0cd-faaa9681e6eb</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/BO_ADMIN_users</testDataId>
+         <testDataId>Data Files/BO_USERS_PROD</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>9454ecf3-f676-45ae-96e7-be23e28ebf15</testDataLinkId>
+         <testDataLinkId>8f385d43-f038-490f-a0cd-faaa9681e6eb</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>UserName</value>
          <variableId>1efa044f-6e28-48b8-abad-5e0327a41b1b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9454ecf3-f676-45ae-96e7-be23e28ebf15</testDataLinkId>
+         <testDataLinkId>8f385d43-f038-490f-a0cd-faaa9681e6eb</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>e940acc4-553a-4348-b9e8-56e668c72500</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9454ecf3-f676-45ae-96e7-be23e28ebf15</testDataLinkId>
+         <testDataLinkId>8f385d43-f038-490f-a0cd-faaa9681e6eb</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Name</value>
          <variableId>acf692b3-2806-477a-bd1c-b0d18cd6f2c1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9454ecf3-f676-45ae-96e7-be23e28ebf15</testDataLinkId>
+         <testDataLinkId>8f385d43-f038-490f-a0cd-faaa9681e6eb</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>TopName</value>
          <variableId>5fa1abf3-f0cb-4b86-8459-caddbaa8c525</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9454ecf3-f676-45ae-96e7-be23e28ebf15</testDataLinkId>
+         <testDataLinkId>8f385d43-f038-490f-a0cd-faaa9681e6eb</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Screenshot</value>
          <variableId>233f113f-3664-4b08-af62-1783dec5b021</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9454ecf3-f676-45ae-96e7-be23e28ebf15</testDataLinkId>
+         <testDataLinkId>8f385d43-f038-490f-a0cd-faaa9681e6eb</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>FirstName</value>
          <variableId>06e0eb0d-0d33-48ba-adef-2a5eec781583</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8f385d43-f038-490f-a0cd-faaa9681e6eb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Profil</value>
+         <variableId>ff0bbff7-c10d-490b-a995-671449f59831</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

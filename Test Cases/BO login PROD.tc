@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BO login PROD</name>
+   <tag> LOG DATA</tag>
+   <comment></comment>
+   <testCaseGuid>47412313-8adc-4604-beaa-61f36e8f7e38</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1efa044f-6e28-48b8-abad-5e0327a41b1b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e940acc4-553a-4348-b9e8-56e668c72500</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>acf692b3-2806-477a-bd1c-b0d18cd6f2c1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5fa1abf3-f0cb-4b86-8459-caddbaa8c525</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>233f113f-3664-4b08-af62-1783dec5b021</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>06e0eb0d-0d33-48ba-adef-2a5eec781583</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ff0bbff7-c10d-490b-a995-671449f59831</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'inge01'</defaultValue>
+      <description>user name</description>
+      <id>1efa044f-6e28-48b8-abad-5e0327a41b1b</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>'synchro'</defaultValue>
+      <description>password</description>
+      <id>e940acc4-553a-4348-b9e8-56e668c72500</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>'T01'</defaultValue>
+      <description>name</description>
+      <id>acf692b3-2806-477a-bd1c-b0d18cd6f2c1</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'INGE T01'</defaultValue>
+      <description>header top name</description>
+      <id>5fa1abf3-f0cb-4b86-8459-caddbaa8c525</id>
+      <masked>false</masked>
+      <name>TopName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Screenshots/PROD/scTECH01.png'</defaultValue>
+      <description>numero de screenshot</description>
+      <id>233f113f-3664-4b08-af62-1783dec5b021</id>
+      <masked>false</masked>
+      <name>Screenshot</name>
+   </variable>
+   <variable>
+      <defaultValue>'T01'</defaultValue>
+      <description>firstname</description>
+      <id>06e0eb0d-0d33-48ba-adef-2a5eec781583</id>
+      <masked>false</masked>
+      <name>FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Technician'</defaultValue>
+      <description>Profil</description>
+      <id>ff0bbff7-c10d-490b-a995-671449f59831</id>
+      <masked>false</masked>
+      <name>Profil</name>
+   </variable>
+</TestCaseEntity>

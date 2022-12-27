@@ -25,6 +25,7 @@
          </iterationEntity>
          <testDataId>Data Files/Notif_Draft-Sched-Once</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>1091e699-f8d4-4f04-9d23-ef55fd89cbe2</testDataLinkId>
          <type>DATA_COLUMN</type>
